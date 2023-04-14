@@ -37,11 +37,14 @@ importers:
 
   packages/react-resizable-panels:
     specifiers:
+      '@swc/helpers': 0.4.14
       eslint: ^8.37.0
       eslint-plugin-no-restricted-imports: ^0.0.0
       eslint-plugin-react-hooks: ^4.6.0
       react: latest
       react-dom: latest
+    dependencies:
+      '@swc/helpers': 0.4.14
     devDependencies:
       eslint: 8.37.0
       eslint-plugin-no-restricted-imports: 0.0.0
@@ -1179,7 +1182,6 @@ packages:
     resolution: {integrity: sha512-4C7nX/dvpzB7za4Ql9K81xK3HPxCpHMgwTZVyf+9JQ6VUbn9jjZVN7/Nkdz/Ugzs2CSjqnL/UPXroiVBVHUWUw==}
     dependencies:
       tslib: 2.5.0
-    dev: true
 
   /@trysound/sax/0.2.0:
     resolution: {integrity: sha512-L7z9BgrNEcYyUYtF+HaEfiS5ebkh9jXqbszz7pC0hRBPaatV0XjSD3+eHrpqFemQfgwiFF0QPIarnIihIDn7OA==}
@@ -2764,7 +2766,6 @@ packages:
 
   /tslib/2.5.0:
     resolution: {integrity: sha512-336iVw3rtn2BUK7ORdIAHTyxHGRIHVReokCR3XjbckJMK7ms8FysBfhLR8IXnAgy7T0PTPNBWKiH514FOW/WSg==}
-    dev: true
 
   /tsutils/3.21.0_typescript@5.0.3:
     resolution: {integrity: sha512-mHKK3iUXL+3UF6xL5k0PEhKRUBKPBCv/+RkEOpjRWxxx27KKRBmmA60A9pgOUvMi8GKhRMPEmjBRPzs2W7O1OA==}

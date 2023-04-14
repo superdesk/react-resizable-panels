@@ -29,6 +29,9 @@
     "react-dom": "^16.14.0 || ^17.0.0 || ^18.0.0"
   },
   "browserslist": [
-    "Chrome 79"
-  ]
+    "Chrome 42"
+  ],
+  "dependencies": {
+    "@swc/helpers": "0.4.14"
+  }
 }
