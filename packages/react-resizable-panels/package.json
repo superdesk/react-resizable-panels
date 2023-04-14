@@ -1,5 +1,8 @@
 {
-  "name": "react-resizable-panels",
+  "name": "@superdesk/react-resizable-panels",
+  "publishConfig": {
+    "access": "public"
+  },
   "version": "0.0.39",
   "description": "React components for resizable panel groups/layouts",
   "author": "Brian Vaughn <brian.david.vaughn@gmail.com>",
